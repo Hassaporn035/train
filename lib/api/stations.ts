@@ -2,16 +2,13 @@ import { Station } from "@/app/types/types";
 
 // ฟังก์ชันช่วยจัดการข้อมูลก่อนส่ง (Helper)
 const prepareParams = (params: Station) => {
-    const link =
-        typeof params.linkGoogleMymap === "string" && params.linkGoogleMymap.trim() !== ""
-            ? params.linkGoogleMymap.trim()
-            : null;
+    
     return {
         ...params,
         latitude: params.latitude !== "" ? parseFloat(String(params.latitude)) : null,
         longitude: params.longitude !== "" ? parseFloat(String(params.longitude)) : null,
         sequence: Number(params.sequence),
-        linkGoogleMymap: link,
+
     };
 };
 

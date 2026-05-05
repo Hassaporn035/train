@@ -28,10 +28,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Insert station
-    const link =
-      typeof linkGoogleMymap === "string" && linkGoogleMymap.trim() !== ""
-        ? linkGoogleMymap.trim()
-        : null;
+    
 
     await pool.query(
       `

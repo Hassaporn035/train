@@ -36,10 +36,7 @@ export async function PUT(
       return NextResponse.json({ error: 'ลำดับสถานีซ้ำ กรุณาเปลื่ยนลำดับใหม่' }, { status: 400 })
     }
     
-    const link =
-      typeof linkGoogleMymap === "string" && linkGoogleMymap.trim() !== ""
-        ? linkGoogleMymap.trim()
-        : null;
+    
 
     const result = await pool.query(
       `
