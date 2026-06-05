@@ -19,7 +19,7 @@ const kanit = Kanit({
 });
 
 export const metadata: Metadata = {
-  title: "Train — เส้นทางธนบุรี สายน้ำตก",
+  title: "Train — เส้นทางธนบุรี - น้ำตก",
   description:
     "แนะนำสถานีและสถานที่ท่องเที่ยวระหว่างธนบุรีถึงน้ำตก รถไฟสายมรณะ",
 };

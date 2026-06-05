@@ -31,7 +31,7 @@ export default async function FavoritesPage() {
           <div>
             <h1 className="font-serif text-2xl font-semibold sm:text-3xl">รายการโปรด</h1>
             <p className="mt-1 text-sm text-rose-100/90">
-              สถานที่ที่คุณบันทึกจากเส้นทางธนบุรี — สายน้ำตก
+              สถานที่ที่คุณบันทึกจากเส้นทางธนบุรี — น้ำตก
             </p>
           </div>
         </div>
